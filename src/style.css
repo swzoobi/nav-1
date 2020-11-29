@@ -144,13 +144,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 64px;
+  font-size: 40px;
   text-transform: uppercase;
+  width: 140px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .siteList .site > .logo > img {
-  width: 54px;
-  height: 54px;
+  width: 30px;
+  height: 30px;
 }
 
 .siteList .site > .delete {
@@ -180,8 +184,8 @@ body {
 }
 
 .siteList .addButton .icon {
-  font-size: 56px;
-  height: 56px;
+  font-size: 40px;
+  height: 40px;
 }
 
 .modelWrap {
